@@ -1,7 +1,7 @@
 services:
   - type: web
     name: netsentinal-nids
-    runtime: python
+    runtime: python-3.10
     buildCommand: ""
     startCommand: "python app.py"
     envVars:
